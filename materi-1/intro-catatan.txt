@@ -1,0 +1,23 @@
+*** CATATAN
+- untuk bisa mencompile gunakan perintah "go build materi-2/helloworld.go" : menghasilkan executable file
+- merunning aplikasi tanpa compile "go run materi-2/helloworld.go"
+- tidak boleh ada 2 main dalam satu module go, baik dalam satu file, maupun file berbeda
+namun jika file dijalankan satu persatu (go run) masih bisa menggunakan lebih dari satu main (tahap pengembangan)
+- jika di project real hanya boleh satu main function saja
+- fungsi len() pada string mengembalikan nilai dalam bentuk number. len juga menghitung karakter 'spasi'
+- jika kita menggunakan simbol ':=' untuk membuat variabel diawal, maka untuk seterusnya tidak boleh mendefinisikan simbol ':=' lagi. Karena go akan mendeteksi pembuatan ulang variabel yang sama
+- simbol ':=' sama seperti 'var', cukup di deklarasikan diawal pada saat membuat variabel
+- kalau di go, variabel yang tidak dipakai akan menghasilkan error, karena variabel tidak digunakan
+- constant diperbolehkan tidak dipakai variabel dalam suatu program
+- konversi tipe data dalam suatu nilai dapat dilakukan, dari int16 ke int32. Namun perlu diperhatikan bahwa ketika ingin mengkonversi tipe data dengan ukuran dibawahnya, maka nilai nya akan berpengaruh (sesuai digit maksimal yang dapat ditampung)
+- number overflow : ketika nilai melebihi kapasitas, maka nilai akan membalik ke belakang, akan terus berputar
+- type declaration adalah kemampuan membuat ulang tipe data baru dari tipe data yang sudah ada
+- type declaration berfungsi untuk membuat alias terhadap tipe data yang sudah ada, agar lebih mudah dimengerti
+- operasi aritmatika dalam go terdiri dari beberapa operator yaitu, +, -, *, /, dan % (modulus)
+- augmented assignments : operasi yang dilakukan ke dirinya sendiri, contoh a = a + 10 menjadi a += 10
+- unary operator terdiri dari : ++, --, -, +, !
+- operator perbandingan terdiri dari : >, <, >=, <=, ==, !=
+- operasi boolean terdiri dari : &&, ||, !
+- tipe data slice hanya sebagai penunjuk ke array yang dituju
+- tipe data array dan slice memiliki batasan, namun untuk tipe data map tidak memilik batasan asalkan key nya berbeda-beda
+- 

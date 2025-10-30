@@ -1,0 +1,40 @@
+package main
+
+import "fmt"
+
+func main() {
+	var a = 10
+	var b = 10
+	var d = 5
+	var e = 2
+	var f = 2
+	var g = 2
+	var c = a + b - d * e / f % g
+
+	// operasi aritmatika yang didahulukan adalah perkalian, pembagian, lalu penjumlahan dan pengurangan
+	fmt.Println(a, "+", b, "-", d, "*", e, "/", f, "%", g, "=")
+	fmt.Println(c)
+
+	// Augmented assignment 
+	var i = 10
+	i += 10
+	fmt.Println(i)
+	
+	i += 5
+	fmt.Println(i)
+	
+	// Unary operator
+	var j = 1
+	j++
+
+	fmt.Println(j)
+	
+	j++
+	fmt.Println(j)
+	
+	j--
+	fmt.Println(j)
+	
+	j--
+	fmt.Println(j)
+}
