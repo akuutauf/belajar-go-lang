@@ -20,4 +20,8 @@ namun jika file dijalankan satu persatu (go run) masih bisa menggunakan lebih da
 - operasi boolean terdiri dari : &&, ||, !
 - tipe data slice hanya sebagai penunjuk ke array yang dituju
 - tipe data array dan slice memiliki batasan, namun untuk tipe data map tidak memilik batasan asalkan key nya berbeda-beda
+- short statement pada if biasanya digunakan untuk calling action di if nya saja tidak di pakai di bagian yang lain
+- di dalam for terdapat 2 statement, 1. init statement: statement sebelum for di eksekusi, 2. post statement: statement yang akan selalu dieksekusi diakhir tiap perulangan
+- break dalam perulangan digunakan untuk menghentikan seluruh perulangan
+- continue dalam perulangan digunakan untuk menghentikan perulangan yang sedang berjalan, dan langsung melanjutkan ke perulangan selanjutnya
 - 
