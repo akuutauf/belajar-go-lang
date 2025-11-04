@@ -24,4 +24,5 @@ namun jika file dijalankan satu persatu (go run) masih bisa menggunakan lebih da
 - di dalam for terdapat 2 statement, 1. init statement: statement sebelum for di eksekusi, 2. post statement: statement yang akan selalu dieksekusi diakhir tiap perulangan
 - break dalam perulangan digunakan untuk menghentikan seluruh perulangan
 - continue dalam perulangan digunakan untuk menghentikan perulangan yang sedang berjalan, dan langsung melanjutkan ke perulangan selanjutnya
+- parameter dalam function sifatnya wajib, ketika sudah ditambahkan ke dalam function, maka ketika pemanggilan wajib di isi
 - 
