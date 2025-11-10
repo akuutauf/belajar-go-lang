@@ -25,4 +25,8 @@ namun jika file dijalankan satu persatu (go run) masih bisa menggunakan lebih da
 - break dalam perulangan digunakan untuk menghentikan seluruh perulangan
 - continue dalam perulangan digunakan untuk menghentikan perulangan yang sedang berjalan, dan langsung melanjutkan ke perulangan selanjutnya
 - parameter dalam function sifatnya wajib, ketika sudah ditambahkan ke dalam function, maka ketika pemanggilan wajib di isi
+- varargs mampu menerima lebih dari satu input (seperti array)
+- function adalah first class citizen, artinya function bisa disimpan ke dalam variabel
+- type declaration dalam function digunakan untuk membuat alias function, sehingga mempermudah ketika ingin menggunakan function sebagai parameter
+- closure adalah kemampuan suatu function untuk berinteraksi dengan data data disekitarnya dalam satu lingkup scope yang sama
 - 
